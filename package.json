@@ -1,0 +1,25 @@
+{
+  "name": "yamato",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --max-old-space-size=450 --always-compact index.js"
+  },
+  "engines": { 
+    "node": "10.15.3" 
+  },
+  "author": "Saya",
+  "license": "MIT",
+  "dependencies": {
+    "discord-akairo": "github:discord-akairo/discord-akairo",
+    "discord.js": "github:discordjs/discord.js#8915bc1d37f1b83fc9bbd3cfef337bd5f75e4779",
+    "fastify": "^2.3.0",
+    "moment": "^2.24.0",
+    "moment-duration-format": "^2.2.2",
+    "node-fetch": "^2.5.0",
+    "simple-youtube-api": "^5.1.1",
+    "ytdl-core-discord": "^1.0.3",
+    "node-opus": "^0.3.1"
+  }
+}
